@@ -1,0 +1,4 @@
+name: DTHelpMe
+version: ${project.version}
+main: ru.buseso.dreamtime.helpme.HelpMe
+description: Simple commands
