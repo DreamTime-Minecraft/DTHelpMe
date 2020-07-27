@@ -32,9 +32,9 @@ public class HelpCmd extends Command {
             t.setClickEvent(new ClickEvent(ClickEvent.Action.SUGGEST_COMMAND, "/hub"));
             s.sendMessage(t);
 
-            TextComponent g = new TextComponent(TextComponent.fromLegacyText("§a > §7/dw - Посмотреть свой баланс"));
+            TextComponent g = new TextComponent(TextComponent.fromLegacyText("§a > §7/points - Посмотреть свой игровой баланс (поинты)"));
             g.setHoverEvent(new HoverEvent(HoverEvent.Action.SHOW_TEXT, TextComponent.fromLegacyText("§6Нажми, чтобы ввести эту команду!")));
-            g.setClickEvent(new ClickEvent(ClickEvent.Action.SUGGEST_COMMAND, "/dw"));
+            g.setClickEvent(new ClickEvent(ClickEvent.Action.SUGGEST_COMMAND, "/points"));
             s.sendMessage(g);
 
             TextComponent m = new TextComponent(TextComponent.fromLegacyText("§a > §7/msg <ник> <сообщение> - Написать игроку в ЛС"));
